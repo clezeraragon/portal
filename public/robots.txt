@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+Disallow: /realize/*
+Disallow: /conteudo/*
+Disallow: /dicas-e-curiosidades/*
+Disallow: /eventos/*
+Disallow: /guia-de-empresas/regioes/*
+Disallow: /banner/*
+Disallow: /modules/*
+Disallow: /uploads/anuncie/Midia_Kit_iSonhei.pdf
+Disallow: /cadastro.php

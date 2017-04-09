@@ -1,0 +1,5 @@
+/*Botão Novo cadastro no CRUD*/
+.btn_novo, .btn_voltar{
+    margin-top:5px;
+    margin-bottom:5px;
+}

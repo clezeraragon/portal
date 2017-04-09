@@ -1,0 +1,63 @@
+/*------------------------------------*\
+    CSS desenvolvido para o portal
+\*------------------------------------*/
+
+
+/*------------------------------------*\
+    Fidelidade - Resgate
+\*------------------------------------*/
+
+.fid-box-resgate {
+    background: #e6e6e6;
+    border-radius: 8px !important;
+    padding: 20px;
+    min-height: 800px;
+}
+
+.fid-resgate-produto-box, .fid-resgate-pontos-box{
+    padding:0 !important;
+    min-height: 150px;
+}
+
+.fid-resgate-header-produto{
+    border-bottom: 1px solid #ffffff;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.fid-resgate-pontos-box{
+    border-left: 1px solid #ffffff;
+}
+
+.fid-resgate-produto-img{
+    float:left;
+    background: white;
+    border-radius: 5px !important;
+    height: 60px;
+    width: 60px;
+}
+
+.fid-resgate-pontos{
+    margin-left: 15px;
+}
+
+.fid-resgate-produto-dados{
+    float:left;
+    margin-left: 15px;
+}
+
+.color-red{color: red;}
+.color-black{color: black;}
+
+.fid-resgate-pontos-por{
+    font-size: 30px;
+}
+.btn-resgate{
+    margin-top:40px;
+}
+#procedimento-resgate{
+    margin-top:20px;
+}
+.hide-element{
+    display:none;
+}

@@ -1,0 +1,7 @@
+Version 1.1
+	- Extra home page added.
+	- Gallery page added.
+	- Sticky navigation bar added.
+	- Carousel issue on Firefox fixed.
+	- Footer style issue fixed.
+	- Some CSS issues fixed.

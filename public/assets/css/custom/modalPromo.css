@@ -1,0 +1,39 @@
+.modalPromo{transform: translateZ(0px);
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    opacity: 0.7;
+    z-index: 999999;
+    display: none;
+    position: fixed !important;
+    background: rgb(0, 0, 0);
+}
+
+.conteudoPromo{
+    position: fixed;
+    opacity: 1;
+    transition: all 0.45s ease;
+    z-index: 99999999;
+    display: none;
+    width: 500px;
+    background: none rgb(0, 0, 0);
+    left: 50%;
+    margin-left: -250px;
+    margin-top: 10%;
+    height: 347px;
+}
+.fecharPromo{
+    position: absolute;
+    margin-left: 95%;
+    display: inline;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 2em;
+    color: #ffffff;
+    top: -38px;
+}
+.conteudoPromo a:hover img {
+    border: 0px solid #82c2c8 !important;
+     opacity: 1 !important;
+}

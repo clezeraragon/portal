@@ -1,0 +1,144 @@
+/**
+CSS Isonhei
+*/
+
+/*Ajustes no responsivo do menu*/
+@media (min-width: 769px) and (max-width: 1199px) {
+    .navbar-inverse .navbar-nav li a {
+        font-size: 10px;
+    }
+}
+@media (min-width: 641px) and (max-width: 768px) {
+    .navbar-inverse .navbar-nav li a {
+        font-size: 9px;
+    }
+}
+/*CUPOM DE DESCONTO*/
+.cupom-box{
+    border: 2px dotted #aeaeae;
+    border-radius: 8px !important;
+    margin-bottom: 10px;
+    background: #e6e6e6;
+    padding: 10px;
+    min-height:200px;
+}
+
+.cupom-box-img{
+    max-width:210px;
+}
+
+.cupom-box-dados{
+    min-height:120px;
+}
+
+.cupom-box-dsc{
+    /*min-height:60px;*/
+}
+
+.cupom-box-regras{
+    /*min-height:60px;*/
+}
+
+.btn-cupom{
+
+}
+
+.cat-data-guia span {
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    color: #fff;
+    line-height: 27px;
+    font-weight: 700;
+    font-size: 18px;
+    background: #00a5e5;
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 8px;
+    float: left;
+    border-radius: 4px !important;
+}
+
+.page-header h3 {
+    display: inline-block;
+}
+
+.nome_indicador_cadastro {
+    background: none;
+    font-size: 13px;
+    float: right;
+    padding: 12px 0 10px 15px;
+    /*text-transform: capitalize;*/
+}
+.nome_indicador_cadastro strong{
+    color: #3d566e;
+}
+
+
+/*Blocos Segmentacao Home*/
+.label_turismo{
+    background:#80b67b !important;
+    border-left: solid 2px #80b67b !important;
+}
+.label_turismo:before{
+    border-left: solid 4px #80b67b !important;
+}
+
+.label_casamento{
+    background:#b8c5ff !important;
+    border-left: solid 2px #b8c5ff !important;
+}
+.label_casamento:before{
+    border-left: solid 4px #b8c5ff !important;
+}
+
+.label_debutante{
+    background:#df6fc1 !important;
+    border-left: solid 2px #df6fc1 !important;
+}
+.label_debutante:before{
+    border-left: solid 4px #df6fc1 !important;
+}
+
+.label_infantil{
+    background:#f4cc2e !important;
+    border-left: solid 2px #f4cc2e !important;
+}
+.label_infantil:before{
+    border-left: solid 4px #f4cc2e !important;
+}
+
+.label_inspiracoes{
+    background:#019bd7 !important;
+    border-left: solid 2px #019bd7 !important;
+}
+.label_inspiracoes:before{
+    border-left: solid 4px #019bd7 !important;
+}
+
+/*Ajuste no box lista de produtos Home*/
+#lista-home .banner-outer-thumb .item {
+    margin: 0 5px;
+    padding: 4px;
+    background-color: #FDFDFD !important;
+    border: 0 !important;
+}
+
+#lista-home a:hover img {
+    opacity: 1 !important;
+}
+
+.img-responsive-sem-borda{
+    border: 0 !important;
+}
+
+
+.conteudoTexto, .conteudoTexto p, .conteudoTexto ul li, .conteudoTexto ol li{
+    font-size: 18px !important;
+}
+.conteudoTexto ul li, .conteudoTexto ol li{
+    padding-bottom: 10px;
+}
+.conteudoTexto a{
+    color: #00a5e5;
+}

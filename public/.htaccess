@@ -1,0 +1,36 @@
+<IfModule mod_rewrite.c>
+
+    php_value post_max_size 100M
+    php_value upload_max_filesize 100M
+    php_value max_execution_time 0
+
+    <IfModule mod_negotiation.c>
+        Options -MultiViews
+    </IfModule>
+
+    RewriteEngine On
+
+    #URLS ALTERADAS
+    RewriteRule ^categoria/agenda$ /categoria/inspiracoes/cultura-lazer [L,R=301]
+
+
+    #URLS ALTERADAS GUIA CATEGORIA
+    RewriteRule ^guia-de-empresas/filtro/brinquedos/(.*)$ /guia-de-empresas/filtro/locacao-brinquedos/$1 [L,R=301]
+    RewriteRule ^guia-de-empresas/filtro/gatronomia/(.*)$ /guia-de-empresas/filtro/gastronomia/$1 [L,R=301]
+
+
+    #URLS ALTERADAS DO PRODUTO GUIA
+    RewriteRule ^guia-de-empresas/categorias$ /fornecedores/categorias [L,R=301]
+    RewriteRule ^guia-de-empresas/filtro/(.*)/(.*)$ /fornecedores/filtro/$1/$2 [L,R=301]
+    RewriteRule ^guia-de-empresas/(.*)$ /fornecedores/$1 [L,R=301]
+
+
+    # Redirect Trailing Slashes...
+    RewriteRule ^(.*)/$ /$1 [L,R=301]
+
+    # Handle Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+
+</IfModule>

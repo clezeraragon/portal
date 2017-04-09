@@ -1,0 +1,10 @@
+Usar mask de data
+
+<script src="{{ asset('assets/js/input-mask/jquery.inputmask.js') }}" type="text/javascript"></script>
+<script src="{{ asset('assets/js/input-mask/jquery.inputmask.date.extensions.js') }}" type="text/javascript"></script>
+<script src="{{ asset('assets/js/custom/custom.js') }}"></script>
+
+<input id="dt_nascimento" name="dt_nascimento" required type="text" placeholder="dd/mm/yyyy" data-inputmask="'alias': 'dd/mm/yyyy'" data-mask />
+
+
+==========================================

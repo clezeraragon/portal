@@ -1,0 +1,162 @@
+/*Geral Site*/
+
+.row{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.container-box{
+    background: #ffffff;
+}
+
+/*Header*/
+.header-container{
+    text-align: center;
+}
+
+.titulo_site{
+    text-shadow: 2px 2px 12px rgba(0,0,0,0.6);
+    color:#ffffff;
+    margin-top:60px;
+}
+
+/*Galeria de fotos*/
+.album-box {
+    width:365px;
+    /*background:blue;*/
+    margin-bottom: 45px;
+    float:left;
+}
+.album-box-interno {
+    border:1px solid #ebebeb;
+    width:335px;
+    height:290px;
+    margin-left: 15px;
+    background: #f9f9f9;
+}
+.album-box-interno-img{
+    width:335px;
+    height:230px;
+}
+
+.album-item-titulo{
+    background:#000;
+    opacity:0.6;
+    color:white;
+    width:335px;
+    height:60px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+/*Presentes*/
+.presente-box{
+    /*border:1px solid black;*/
+    width:275px;
+    float:left;
+    margin-bottom: 30px;
+}
+
+.presente-box-interno{
+    border:1px solid #ebebeb;
+    width:245px;
+    height:435px;
+    margin-left: 16px;
+    background: #f9f9f9;
+}
+
+.presente-box-interno-img{
+    width:243px;
+    height:243px;
+}
+
+.presente-titulo{
+    top: 20px;
+    font-size:14px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.presente-info{
+    top: 40px;
+    font-size:12px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.presente-botao{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.box-form-recado{
+    border:1px solid #ebebeb;
+    background: #f9f9f9;
+    padding-top:40px;
+    padding-bottom:20px;
+}
+
+
+/*Footer*/
+.footer-copy{
+    text-align: center;
+}
+
+.editar{
+    font-size: 14px;
+}
+.trocar-cor-fundo{
+    position:absolute;
+    margin-top:50px;
+    margin-left:50px;
+}
+
+/*Checkout*/
+
+.checkout-box-img, .checkout-box-texto{
+    float:left;
+    height:243px;
+}
+.checkout-box-img{
+    width:243px;
+}
+.checkout-box-texto{
+    padding: 30px;
+}
+.checkout-cota-titulo{
+    font-size:14px;
+    font-weight: bold;
+}
+
+.white-popup-login {
+    position: relative;
+    background: #fff;
+    padding: 25px;
+    width: auto;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#mensagem{
+    max-width:310px !important;
+    width:360px;
+    height:100px;
+    max-height:300px;
+}
+.posicao{
+    padding-left: 30px;
+    bottom: 5px !important;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .celular {
+
+        right: 24px !important;
+        top:30px !important;
+    }
+}

@@ -1,0 +1,128 @@
+.box-title h3{
+    margin: 0 0px 0px;
+    padding: 0 10px;
+    border-bottom: 1px solid #fff;
+    border-radius: 2px 2px 0 0;
+    -webkit-border-radius: 2px 2px 0 0;
+    -moz-border-radius: 2px 2px 0 0;
+    color: #fff;
+    box-shadow: 0 -2px 0 rgba(0,0,0,0.2) inset;
+    -webkit-box-shadow: 0 -2px 0 rgba(0,0,0,0.2) inset;
+    -moz-box-shadow: 0 -2px 0 rgba(0,0,0,0.2) inset;
+    font-size:1.3em;
+    line-height: 1.5em;
+    background: #3d566e;
+}
+.boxDestaca {
+    margin-bottom: 24px;
+    padding: 0 10px 24px;
+    background: #ebebeb;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    color: #000;
+    position: relative;
+    width:100%;
+
+}
+.blocoInterno{
+    width: 100%;
+    float: left;
+    position: relative;
+    margin-top: 30px;
+}
+.blocoInterno1{
+    width: 100%;
+    float: left;
+    position: relative;
+    margin-top: 5px;
+
+}
+.labeltextooqe{
+
+    float: left;
+    width: 50%;
+    padding-left: 15px;
+    font-size: 14px;
+    color:#3d566e;
+}
+.boldDestaca{
+    font-weight: bold;
+}
+
+
+
+
+
+ .labelgeral{
+    width: 100%;
+    border: 0px solid;
+    color: #3d566e;
+    float: left;
+}
+@media (max-width: 767px) {
+    .labelgeral {
+        width: 100%;
+        /* border: 1px solid; */
+        color: #3d566e;
+        float: left;
+    }
+    .boxDestaca .table td {
+        padding: 5px;
+    }
+    .boxDestaca .table {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+
+    }
+    .boxDestaca tr td:nth-child(odd) {
+        border-top: 0px solid #ddd !important;
+        text-align: center;
+        right: 0%;
+        width: 100px;
+    }
+}
+.boxDestaca .table-responsive {
+    text-align: inherit;
+    border:0px solid;
+
+}
+
+.boxDestaca tr td:nth-child(odd){
+    border-top: 0px solid #ddd !important;
+    text-align: center;
+    right: 0%;
+    width: 30%;
+
+}
+.boxDestaca tr td{
+    border-top: 0px solid #ddd !important;
+    position: relative;
+
+}
+.boxDestaca .table {
+    width: 100%;
+    max-width: 100%;
+    table-layout:fixed;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    /*word-break:break-all;*/
+    font-size: 0.92em;
+}
+.boxDestaca .fomataTable{
+    font-size: small;
+    line-height: 1.6em;
+    text-align: justify;
+    color:#8d9aa5;
+    margin: 0 0 10px;
+
+}
+@media (max-width: 350px) {
+    .boxDestaca tr td:nth-child(odd) {
+        border-top: 0px solid #ddd !important;
+        text-align: center;
+        right: 0%;
+        width: 45%;
+    }
+}

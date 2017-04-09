@@ -1,0 +1,15 @@
+.conteudoTexto p,table{
+        font-size: small;
+        line-height:1.6em;
+        text-align: start;
+        color:#8d9aa5;
+        margin: 0 0 10px;
+}
+
+.conteudoTexto table{
+        margin: 0 0 0px;
+}
+
+.imagemPrincConteudo{
+        margin-bottom: 18px;
+}

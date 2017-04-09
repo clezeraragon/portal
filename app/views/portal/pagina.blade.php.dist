@@ -1,0 +1,34 @@
+
+{{-- Page title --}}
+@section('title')
+{{$data['title_seo']}}
+@stop
+
+@section('description')
+{{$data['description']}}
+@stop
+
+@section('keywords')
+{{$data['keywords']}}
+@stop
+
+{{-- page level styles --}}
+@section('header_styles')
+
+@stop
+
+{{-- Page content --}}
+@section('conteudo')
+
+<!-- conteudo Start -->
+<div class="container">
+
+</div>
+<!-- conteudo END -->
+
+@stop
+
+{{-- page level scripts --}}
+@section('footer_scripts')
+
+@stop
